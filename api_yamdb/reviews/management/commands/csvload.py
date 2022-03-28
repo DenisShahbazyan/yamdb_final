@@ -1,5 +1,4 @@
 from django.core.management.base import BaseCommand
-
 from reviews.models import Category, Comments, Genre, Review, Title
 from reviews.parsers.csv_parsers import csv_parse
 from users.models import User
@@ -87,7 +86,6 @@ class Command(BaseCommand):
             self.stdout.write(self.style.ERROR(
                 f'file {filename}.csv not exist'
             ))
-            return None
 
         commands = {
             'category': create_category,
