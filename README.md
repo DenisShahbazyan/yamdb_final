@@ -73,6 +73,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 GET http://127.0.0.1:8000/redoc/ 
 ```
 
-API http://51.250.100.71/api/v1/
-Admin Panel http://51.250.100.71/admin/
-Redoc http://51.250.100.71/redoc/
+<a href="http://51.250.100.71/api/v1/">API</a>
+<a href="http://51.250.100.71/admin/">Admin</a>
+<a href="http://51.250.100.71/redoc/">Redoc</a>
