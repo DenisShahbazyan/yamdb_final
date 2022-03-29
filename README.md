@@ -6,9 +6,9 @@
 
 ### Авторы: 
 
-<a href="https://github.com/Muxa2793">Michail Spiridonov</a> 
-<a href="https://github.com/DenisShahbazyan">Denis Shahbazyan</a> 
-<a href="https://github.com/alisagafarova">Alisa Gafarova</a> 
+<a href="https://github.com/Muxa2793">Michail Spiridonov</a><br>
+<a href="https://github.com/DenisShahbazyan">Denis Shahbazyan</a><br>
+<a href="https://github.com/alisagafarova">Alisa Gafarova</a><br>
 
 ### Установка 
 
@@ -73,6 +73,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 GET http://127.0.0.1:8000/redoc/ 
 ```
 
-<a href="http://51.250.100.71/api/v1/">API</a>
-<a href="http://51.250.100.71/admin/">Admin</a>
-<a href="http://51.250.100.71/redoc/">Redoc</a>
+<a href="http://51.250.100.71/api/v1/">API</a><br>
+<a href="http://51.250.100.71/admin/">Admin</a><br>
+<a href="http://51.250.100.71/redoc/">Redoc</a><br>
